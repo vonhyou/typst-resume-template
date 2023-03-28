@@ -12,7 +12,43 @@
 
 #linebreak()
 
-#section(title: "Educatoin")
-#section(title: "Experience")
-#section(title: "Project")
+#section(
+  title: "Educatoin",
+  items: (
+    lorem(10),
+    lorem(10),
+    lorem(10)
+  )
+)
 
+#section(
+  title: "Experience",
+  items: (
+    lorem(10),
+    lorem(23),
+    lorem(23),
+    lorem(23)
+  )
+)
+
+#section(
+  title: "Project",
+  
+  items: (
+    lorem(42),
+    lorem(42),
+    lorem(42),
+    lorem(42)
+  )
+)
+
+
+#section(
+  title: "MISC",
+  items: (
+    lorem(10),
+    lorem(23),
+    lorem(23),
+    lorem(23)
+  )
+)

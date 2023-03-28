@@ -1,3 +1,10 @@
+#let list_items(items: ()) = {
+  for item in items {
+    text(item)
+    linebreak()
+  }
+}
+
 #let section(
   title: "Section",
   items: ()
@@ -7,6 +14,6 @@
     columns: (65pt, auto),
     gutter: 10pt, 
       text(size: 12pt, weight: "bold", smallcaps(title)),
-      lorem(50)
+      list_items(items: items)
   )
 }
