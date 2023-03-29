@@ -6,4 +6,5 @@
 
 - [x] Header
 - [x] Sections
-- [ ] Social Links in Header
+- [x] Social Links in Header
+- [ ] *Reformat*

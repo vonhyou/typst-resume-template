@@ -16,11 +16,20 @@
   v(8pt, weak: true)
 }
 
+#let social_links(social: ()) = {
+    for i, item in social {
+    let href = item.at(0)
+    let content = item.at(1)
+    link(href)[#text(font: "TeX Gyre Cursor", " " + content)]
+  }
+}
+
 #let header(
   name: "First Last",
   address: "6299 South St., Halifax, NS B3H 4R2",
   phone: "9021234567",
   email: "example@foo.com",
+  social: ()
 ) = {
   
   set align(right)
@@ -30,6 +39,9 @@
   
   set text(font: "Libre Baskerville")
   text(size: 10pt,address)
+  linebreak()
+
+  social_links(social: social)
   linebreak()
   
   link("tel:" + phone)[#phone_number_format[#phone]]

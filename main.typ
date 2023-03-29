@@ -7,7 +7,13 @@
   name: "First Last",
   address: "6299 South St., Halifax, NS B3H 4R2",
   phone: "9021234567",
-  email: "test@dal.ca"
+  email: "test@dal.ca",
+  social: (
+    ("https://github.com/vonhyou", [GitHub]),
+    ("#", [Linkedin]),
+    ("#", [Twitter]),
+    ("#", [Blog])
+  )
 )
 
 #linebreak()
@@ -45,13 +51,13 @@
 #section(
   title: [Project],
   items: (
-    (text(weight: "bold", "Some Interesting Stuffa"), 
+    (text(weight: "bold", "Some Interesting Stuff"), 
       link("#")[#text(font: "TeX Gyre Cursor", "ProjectHomePage")]),
     ([- #lorem(12)
       - #lorem(23)
       - #lorem(12)], [#v(0pt, weak: true)]),
 
-    (text(weight: "bold", "Some Interesting Stuffa"), 
+    (text(weight: "bold", "Some Interesting Stuff"), 
       link("#")[#text(font: "TeX Gyre Cursor", "ProjectHomePage")]),
     ([- #lorem(12)
       - #lorem(23)
@@ -66,8 +72,7 @@
       - #lorem(23)
       - #lorem(12)
       - #lorem(12)
-      - #lorem(23)
-      - #lorem(12)], [#v(0pt, weak: true)]),
+      - #lorem(23)], []),
   )
 )
 
