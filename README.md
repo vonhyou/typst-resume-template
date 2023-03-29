@@ -5,4 +5,5 @@
 ![Progress](./screenshots/progress.png)
 
 - [x] Header
-- [ ] Body
+- [x] Sections
+- [ ] Social Links in Header

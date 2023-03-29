@@ -1,7 +1,3 @@
-#let styled_link(link_string) = {
-  text(font: "TeX Gyre Cursor", link_string)
-}
-
 // Telephone numbers in Canada/ USA
 #let phone_number_format(phone) = {
   let number = phone.text
@@ -38,6 +34,6 @@
   
   link("tel:" + phone)[#phone_number_format[#phone]]
   text(" or ")
-  link("mailto:" + email)[#styled_link[#email]]
+  link("mailto:" + email)[#text(font: "TeX Gyre Cursor", email)]
 }
 
