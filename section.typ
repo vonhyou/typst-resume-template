@@ -1,7 +1,9 @@
 #let list_items(items: ()) = {
   for item in items {
-    text(item)
-    linebreak()
+    let left_item = item.at(0)
+    let right_item = item.at(1)
+
+    text(left_item + h(1fr) + right_item)
   }
 }
 

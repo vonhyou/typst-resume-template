@@ -15,40 +15,59 @@
 #section(
   title: "Educatoin",
   items: (
-    lorem(10),
-    lorem(10),
-    lorem(10)
+    (text(weight: "bold", "Dalhousie University"), 
+      [#text(style: "italic", "Jan. 2022 – Present")\ ]),
+    ([Bachelor of Computer Science with Co-op Education], [GPA 4.21/4.30\ ]),
+    (lorem(24), [])
   )
 )
 
 #section(
   title: "Experience",
   items: (
-    lorem(10),
-    lorem(23),
-    lorem(23),
-    lorem(23)
+    (text(weight: "bold", "XYZ Company"), 
+      text(style: "italic", "May. 2021 – Aug. 2021")),
+    ([- #lorem(12)
+      - #lorem(23)], [#v(0pt, weak: true)]),
+
+    (text(weight: "bold", "QWERTY Company"), 
+      text(style: "italic", "May. 2021 – Aug. 2021")),
+    ([- #lorem(12)
+      - #lorem(23)], [#v(0pt, weak: true)]),
+      
+    (text(weight: "bold", "ABC Company"), 
+      text(style: "italic", "May. 2019 – Aug. 2019")),
+    ([- #lorem(12)
+      - #lorem(23)], [])
   )
 )
 
 #section(
-  title: "Project",
-  
+  title: [Project],
   items: (
-    lorem(42),
-    lorem(42),
-    lorem(42),
-    lorem(42)
+    (text(weight: "bold", "Some Interesting Stuffa"), 
+      link("#")[#text(font: "TeX Gyre Cursor", "ProjectHomePage")]),
+    ([- #lorem(12)
+      - #lorem(23)
+      - #lorem(12)], [#v(0pt, weak: true)]),
+
+    (text(weight: "bold", "Some Interesting Stuffa"), 
+      link("#")[#text(font: "TeX Gyre Cursor", "ProjectHomePage")]),
+    ([- #lorem(12)
+      - #lorem(23)
+      - #lorem(12)], [#v(0pt, weak: true)])
   )
 )
-
 
 #section(
-  title: "MISC",
+  title: [Misc],
   items: (
-    lorem(10),
-    lorem(23),
-    lorem(23),
-    lorem(23)
+    ([- #lorem(12)
+      - #lorem(23)
+      - #lorem(12)
+      - #lorem(12)
+      - #lorem(23)
+      - #lorem(12)], [#v(0pt, weak: true)]),
   )
 )
+
