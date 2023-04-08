@@ -6,7 +6,7 @@ A [Typst](https://typst.app/) version of my resume. Basically usable as a templa
 
 ## Usage
 
-- Create a typst project directly using the read-only [share link](https://typst.app/project/rdRZ87-0u5tyg-Z9c6o8uu) (recommanded)
+- Create a typst project directly using the read-only [share link](https://typst.app/project/rdRZ87-0u5tyg-Z9c6o8uu) (recommended)
 - Fork/ download this repo.
 
 ## Demo
