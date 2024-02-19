@@ -19,7 +19,7 @@
 #linebreak()
 
 #section(
-  title: "Educatoin",
+  title: "Education",
   items: (
     (text(weight: "bold", "Dalhousie University"), 
       [#text(style: "italic", "Jan. 2022 – Present")\ ]),
